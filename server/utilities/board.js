@@ -37,6 +37,6 @@ class Board {
         this.game = new Array(9).fill(null);
         this.turn = 'X';
     }
-}
+};
 
 module.exports = Board;

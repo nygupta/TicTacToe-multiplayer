@@ -5,6 +5,6 @@ class Player {
         this.id = id;
         this.piece = piece;
     }
-}
+};
 
 module.exports = Player;
