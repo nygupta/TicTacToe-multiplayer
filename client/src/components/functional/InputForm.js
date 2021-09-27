@@ -15,8 +15,8 @@ const InputForm = (props) => {
                     value={name}
                 />
                 <div className='nav-container'>
-                    <ChoiceButton type='nav-back' choice='back' onChoice={stepBack} lable='back' />
-                    <ChoiceButton type='nav-forward' choice='submit' onChoice={onSubmit} lable='lets go...' />
+                    <ChoiceButton type='nav-back' choice='back' onChoice={stepBack} label='back' />
+                    <ChoiceButton type='nav-forward' choice='submit' onChoice={onSubmit} label='lets go...' />
                 </div>
             </div>
         );
@@ -37,7 +37,7 @@ const InputForm = (props) => {
                     value={room}
                 />
                 <div className='nav-container'>
-                    <ChoiceButton type='nav-back' choice='back' onChoice={stepBack} lable='back' />
+                    <ChoiceButton type='nav-back' choice='back' onChoice={stepBack} label='back' />
                     <ChoiceButton type='nav-forward' choice='submit' onChoice={onSubmit} label='lets go...' />
                 </div>
             </div>

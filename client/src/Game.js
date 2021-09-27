@@ -1,8 +1,12 @@
 import React from 'react';
-//import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+
+import Start from './components/pages/Start';
 
 const Game = () => (
-    <div>Game</div>
+    <Router>
+        <Route path='/' exact component={Start} />
+    </Router>
 );
 
 export default Game;

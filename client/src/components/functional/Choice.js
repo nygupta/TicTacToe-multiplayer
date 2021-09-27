@@ -6,8 +6,8 @@ const Choice = ({ logo, onChoice }) => {
         <>
             <div className='choice-container'>
                 <a href="/"><img src={logo} alt='TicTacToe-Multiplayer'/></a>
-                <ChoiceButton onChoice={onChoice} type='primary' choice='new' lable='Sstart Game'/>
-                <ChoiceButton onChoice={onChoice} type='secondary' choice='join' lable='Join Game'/>
+                <ChoiceButton onChoice={onChoice} type='primary' choice='new' label='Sstart Game'/>
+                <ChoiceButton onChoice={onChoice} type='secondary' choice='join' label='Join Game'/>
             </div>
         </>
     );
