@@ -86,7 +86,7 @@ io.on('connection', socket => {
     //on the client submit event (on start page) to join a room
     socket.on('joining', ({room}) => {
         if(rooms.has(room))
-            socket.emit('joinConfermed');
+            socket.emit('joinConfirmed');
         else 
             socket.emit('errorMessage', 'No room with that id found');
     });
