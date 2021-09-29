@@ -25,17 +25,17 @@ class Board {
 
     checkWinner(player) {
         return this.winStates.some(state => (
-            state.every((position => this.game[position] === player))
+          state.every((position => this.game[position] === player))
         ));
     }
-
+    
     checkDraw() {
         return this.game.every(value => value !== null);
     }
 
     reset() {
         this.game = new Array(9).fill(null);
-        this.turn = 'X';
+        this.tur = 'X';
     }
 };
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 export default function Score({name, score}) {
     return (
@@ -6,5 +6,5 @@ export default function Score({name, score}) {
             <h1 className='name'>{name}</h1>
             <h1 className='score'>{score}</h1>
         </div>
-    );
-};
+    )
+}

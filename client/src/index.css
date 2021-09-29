@@ -12,6 +12,8 @@
   font-family: Roboto, Open Sans, Poppins, sans-serif;
 }
 
+
+
 body{
   display: flex;
   height: 100vh;
@@ -35,6 +37,7 @@ body{
   min-height: min-content;
   grid-template-columns: repeat(3, auto);
 }
+
 
 .square{
   width: var(--square-width);
@@ -71,6 +74,7 @@ body{
 .square:nth-child(6){
   border-right: none;;
 }
+
 
 .placeHolder{
   width: 100%;
@@ -133,6 +137,7 @@ img{
   background: var(--light-blue);
   color: var(--mid-blue);
 }
+
 
 input{
   background: none;
@@ -313,6 +318,7 @@ input:active, input:focus{
   font-weight: 300;
   font-size: 24px
 }
+
 
 .again-container{
   display: flex;

@@ -1,13 +1,13 @@
 const randRoom = () => {
-    var roomId = '';
+    var result = '';
     var hexChars = '0123456789abcdef';
     for (var i = 0; i < 16; i += 1)
-        roomId += hexChars[Math.floor(Math.random() * 16)];
-    return roomId;
-};
+        result += hexChars[Math.floor(Math.random() * 16)];
+    return result;
+}
 
 const randPiece = () => {
-    return Math.random() > 0.5 ? 'X' : 'O';
-};
+    return Math.random() > 0.5 ? 'X':'O';
+}
 
 module.exports = {randRoom, randPiece};
