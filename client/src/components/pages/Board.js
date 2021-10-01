@@ -9,7 +9,7 @@ import PlayAgain from '../functional/PlayAgain'
 
 import io from 'socket.io-client'
 import qs from 'qs'
-const ENDPOINT = 'https://react-ttt-app.herokuapp.com/'
+const ENDPOINT = 'https://tictactoe--multiplayer.herokuapp.com/'
 
 class Board extends Component {
   constructor(props){
