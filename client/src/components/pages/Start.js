@@ -1,15 +1,15 @@
 import React from 'react';
 
-import Choice from '../functional/Choice.js'
-import InputForm from '../functional/InputForm.js'
-import Loading from '../functional/Loading'
-import Error from '../functional/Error'
-import logo from './logo.png'
+import Choice from '../functional/Choice.js';
+import InputForm from '../functional/InputForm.js';
+import Loading from '../functional/Loading';
+import Error from '../functional/Error';
+import logo from '../../images/logo.png';
 
-import {Redirect} from 'react-router-dom'
+import {Redirect} from 'react-router-dom';
 
-import socketIOClient from 'socket.io-client'
-const ENDPOINT = 'https://tictactoe--multiplayer.herokuapp.com/'
+import socketIOClient from 'socket.io-client';
+const ENDPOINT = 'http://localhost:4000/';
 
 class Start extends React.Component {
     constructor(props){

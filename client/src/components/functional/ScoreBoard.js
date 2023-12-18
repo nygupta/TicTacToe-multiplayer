@@ -1,5 +1,5 @@
-import React from 'react'
-import Score from './Score'
+import React from 'react';
+import Score from './Score';
 
 export default function ScoreBoard({data}) {
     return (

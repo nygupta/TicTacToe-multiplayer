@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import {Redirect} from 'react-router-dom'
+import {Redirect} from 'react-router-dom';
 
 import Square from '../functional/Square';
-import Wait from '../functional/Wait'
-import Status from '../functional/Status'
-import ScoreBoard from '../functional/ScoreBoard'
-import PlayAgain from '../functional/PlayAgain'
+import Wait from '../functional/Wait';
+import Status from '../functional/Status';
+import ScoreBoard from '../functional/ScoreBoard';
+import PlayAgain from '../functional/PlayAgain';
 
-import io from 'socket.io-client'
-import qs from 'qs'
-const ENDPOINT = 'https://tictactoe--multiplayer.herokuapp.com/'
+import io from 'socket.io-client';
+import qs from 'qs';
+const ENDPOINT = 'http://localhost:4000/';
 
 class Board extends Component {
   constructor(props){

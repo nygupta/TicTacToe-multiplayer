@@ -1,6 +1,6 @@
 import React from 'react';
-import Input from './Input.js'
-import ChoiceButton from './ChoiceButton'
+import Input from './Input.js';
+import ChoiceButton from './ChoiceButton';
 
 const InputForm = (props) => {
     const {stepBack, onSubmit, onTyping, newGame, name, room} = props
