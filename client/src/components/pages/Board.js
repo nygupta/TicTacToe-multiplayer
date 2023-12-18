@@ -9,7 +9,7 @@ import PlayAgain from '../functional/PlayAgain';
 
 import io from 'socket.io-client';
 import qs from 'qs';
-const ENDPOINT = 'http://localhost:4000/';
+const ENDPOINT = 'https://tictactoe-multiplayer.onrender.com';
 
 class Board extends Component {
   constructor(props){

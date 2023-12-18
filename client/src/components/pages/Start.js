@@ -9,7 +9,7 @@ import logo from '../../images/logo.png';
 import {Redirect} from 'react-router-dom';
 
 import socketIOClient from 'socket.io-client';
-const ENDPOINT = 'http://localhost:4000/';
+const ENDPOINT = 'https://tictactoe-multiplayer.onrender.com';
 
 class Start extends React.Component {
     constructor(props){

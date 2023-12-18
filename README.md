@@ -32,4 +32,4 @@ $ npm start
 
 The Game is deployed to [tictactoe](https://tictactoe-multiplayer.netlify.app/)
 
-The backend part is deployed on [heroku](https://dashboard.heroku.com/apps/tictactoe--multiplayer/deploy/heroku-git) & the frountend part is deployed on [netlify](https://app.netlify.com/sites/tictactoe-multiplayer/overview).
+The backend part is deployed on [render](https://tictactoe-multiplayer.onrender.com) & the frountend part is deployed on [netlify](https://app.netlify.com/sites/tictactoe-multiplayer/overview).
